@@ -21,7 +21,6 @@ public class A {
         driver.findElement(By.xpath("//*[@type='text']")).sendKeys("tomsmith");
         driver.findElement(By.xpath("//*[@type='password']")).sendKeys("SuperSecretPassword!");
         driver.findElement(By.xpath("//*[@class='radius']")).click();
-        driver.manage().timeouts().implicitlyWait(TimeUnit.SECONDS.sleep('1'));
         driver.quit();
 
     }
